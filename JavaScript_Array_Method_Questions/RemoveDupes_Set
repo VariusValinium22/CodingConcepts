@@ -1,0 +1,13 @@
+// Question 16: Remove duplicate values from an array
+// Example Input: [1, 2, 2, 3, 4, 4, 5]
+// Expected Output: [1, 2, 3, 4, 5]
+
+const numbers = [1, 2, 2, 3, 4, 4, 5]; // You can modify this array for testing
+
+// 1️⃣ Arrow function (one-liner)
+const removeDupes1 = (arr) => [...new Set(arr)];
+
+// Explanation:
+// The Set object lets us store unique values, automatically removing duplicates.
+// Using the spread operator [...new Set(arr)] converts the Set back into an array.
+// This method efficiently removes duplicates while maintaining the order of elements.
