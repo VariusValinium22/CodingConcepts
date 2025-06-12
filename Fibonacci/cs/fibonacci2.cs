@@ -3,7 +3,8 @@ using System.Collections.Generic;
 
 class Program
 {
-    static int[] Fibonacci2(int count)
+    //============================================
+    static int[] FibonacciArray(int count)
     {
         int[] fibList = new int[count];
 
@@ -15,9 +16,15 @@ class Program
         }
         return fibList;
     }
+
     static void Main()
     {
-        int[] fibonacci = Fibonacci2(10);
-        Console.WriteLine(string.Join(", ", fibonacci));
+        int count = 10;
+        int[] fibonacciList = FibonacciArray(count);
+        Console.WriteLine("Fibonacci Sequence:");
+        Console.WriteLine(string.Join(", ", fibonacciList));
+        Console.WriteLine("Is dataType a number? " + (fibonacciList[0].GetType() == typeof(int)));
     }
 }
+
+

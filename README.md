@@ -1,5 +1,9 @@
 cmds to run each file based on language:
 
+| Hot Keys | What it does?                            | 
+| -------- | ---------------------------------------- |
+| Shows Preview of README.md file |  ctrl + Shift + V |
+
 | Language | Run Command                          |
 | -------- | ------------------------------------ |
 | .js      | `node fibonacci.js`                  |
