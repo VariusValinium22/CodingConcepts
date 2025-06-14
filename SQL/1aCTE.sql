@@ -1,3 +1,43 @@
+--“Show the most recent transaction for each account 
+-- including amount, type, and date.”
+-- You are looking for a SINGLE result('most recent transaction').
+-- For this you can either use a  CTE or a SUBQUERY
+
+--==========================================================
+--REWRITE CTE(Common Table Transaction) from Memory here--
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 --CTE
 WITH LastestTransaction AS (
     SELECT 
@@ -26,3 +66,5 @@ SELECT
     IS_NULLABLE
 FROM INFORMATION_SCHEMA.COLUMNS
 ORDER BY TABLE_NAME, ORDINAL_POSITION;
+
+SELECT * FROM Accounts;
