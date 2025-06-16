@@ -10,7 +10,7 @@ names1.forEach(n => {
 
 
 
-//== you can numbers =====================================
+//== you can use numbers =====================================
 let numbers1 = [1, 2, 3, 4, 5];
 numbers1.forEach(n => {
     n * 2;

@@ -19,7 +19,7 @@ RESULT: [
 ] */
 
 
-//== you can numbers =====================================
+//== you can use numbers =====================================
 let numbers1 = [1, 2, 3, 4];
 let numbers2 = [5, 6, 7, 8];
 concatNumbers = numbers1.concat(numbers2);

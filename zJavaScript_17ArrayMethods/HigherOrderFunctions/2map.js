@@ -7,7 +7,7 @@ console.log(upperCasedNames);
 
 
 
-//== you can numbers =====================================
+//== you can use numbers =====================================
 let numbers = [1, 2, 3, 4, 5, 6];
 let doubled = numbers.map((n) => n * 2);
 console.log(numbers);

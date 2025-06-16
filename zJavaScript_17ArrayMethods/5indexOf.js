@@ -1,4 +1,4 @@
-// indexOf: return the index of an the first given item of an array
+// indexOf: return the 'index of' the first given item of an array
 
 
 let names = ['Danny', 'Joe', 'Sarah', 'Molly', 'JOE'];

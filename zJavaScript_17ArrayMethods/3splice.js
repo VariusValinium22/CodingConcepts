@@ -34,7 +34,7 @@ console.log(names3);
 console.log(initialCopy3);
 
 
-//== you can numbers =====================================
+//== you can use numbers =====================================
 // Splice out '2' from the array
 let numbers1 = [1, 2, 3, 4];
 let initialCopy2 = [1, 2, 3, 4];

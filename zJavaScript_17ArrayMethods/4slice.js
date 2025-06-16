@@ -19,7 +19,7 @@ console.log(namesSliced2);
 [ 'Joe', 'Sarah', 'Molly' ]*/
 
 
-//== you can numbers =====================================
+//== you can use numbers =====================================
 // Slice out '2' from the array
 let numbers1 = [1, 2, 3, 4];
 slicedNumbers = numbers1.slice(1,3);

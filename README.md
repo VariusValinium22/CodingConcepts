@@ -1,14 +1,18 @@
-cmds to run each file based on language:
-
 | Hot Keys | What it does?                            | 
 | -------- | ---------------------------------------- |
 | Shows Preview of README.md file |  ctrl + Shift + V |
 
-| Language | Run Command                          |
-| -------- | ------------------------------------ |
-| .js      | `node fibonacci.js`                  |
-| .py      | `python fibonacci.py`                |
-| .cs      | `csc fibonacci.cs + ./fibonacci.exe` |
+| Language | IDE                       | env    | Database                                      |
+| -------- | ------------------------- | ------ | --------------------------------------------- |
+| SQL      |  Azure Data Studio(ADS)   | local  | WTWR                                          |    
+| KQL      |  SSMS                     | local  | StormEvents-Demo                              |
+| KQL      |  Azure Date Explorer(ADE) | online | Query>Samples>help.Samples: Table>StormEvents |
+
+| Language | Run Command                        |
+| -------- | ---------------------------------- |
+| .js      | node fibonacci.js                  |
+| .py      | python fibonacci.py                |
+| .cs      | csc fibonacci.cs + ./fibonacci.exe |
 
 Must have extensions:
 
