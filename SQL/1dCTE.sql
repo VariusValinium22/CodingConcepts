@@ -6,6 +6,22 @@
 -- Show total number of transactions per client
 -- Show total amount tranacted per client
 
+ --================================================================================
+--REWRITE the queries from Memory here--
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 --===================================================================================
 --Show all clients with no accounts.
 SELECT *
@@ -49,7 +65,7 @@ LEFT JOIN Accounts a ON c.client_id = a.client_id
 LEFT JOIN Transactions t ON a.account_id = t.account_id
 GROUP BY c.client_id, c.name;
 
---Show total amount tranacted per client
+--Show total_amount tranacted per client
 SELECT c.client_id, c.name, SUM(t.amount) AS total_amount
 FROM Clients c
 LEFT JOIN Accounts a ON c.client_id = a.client_id

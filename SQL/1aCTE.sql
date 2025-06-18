@@ -6,9 +6,25 @@
 --==========================================================
 --REWRITE CTE(Common Table Transaction) from Memory here--
 
-
-
-
+WITH LatestTransaction AS (
+    SELECT
+        t.account_id,
+        t.amount,
+        t.txn_type,
+        t.txn_date,
+        ROW_NUMBER() OVER(
+            PARTITION BY t.account_id
+            ORDER BY t.txn_date DESC
+        ) AS rn 
+    FROM Transactions t
+)
+SELECT
+    lt.account_id,
+    lt.amount,
+    lt.txn_type AS Type,
+    lt.txn_date AS Latest_Date
+FROM LatestTransaction lt
+WHERE rn = 1;
 
 
 
